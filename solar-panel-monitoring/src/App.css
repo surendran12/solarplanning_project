@@ -1,0 +1,76 @@
+
+
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.panel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.panel {
+  border: 1px solid #ccc;
+  padding: 10px;
+  line-height: 32px;
+}
+
+.panel.weak {
+  border: 1px solid #ef9a9a;
+  border-radius: 4px;
+  background-color: #ffcdd2;
+}
+
+.panel.healthy {
+  border: 1px solid #81c784;
+  border-radius: 4px;
+  background-color: #c8e6c9;
+}
+
+.farmOverview {
+  margin-bottom: 0px;
+}
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 48px;
+  font-weight: 600;
+  font-size: 2rem;
+}
+h3 {
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #01579b;
+  text-transform: uppercase;
+}
+.farmInfo {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  justify-content :flex-start;
+  border: 1px solid #81c784;
+}
+.farmView {
+  margin-bottom: 30px;
+}
+p {
+  margin: 5px 0 0;
+  font-size: 1rem;
+  color: #888888;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.panelVoltage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.panelVoltage span {
+  font-weight: 600;
+}
